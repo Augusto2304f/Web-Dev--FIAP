@@ -1,3 +1,5 @@
+# JavaScripit 1
+
 // console.log("Hello World")
 
 // console.info("Aviso")
@@ -137,4 +139,97 @@ Comentario de várias linhas
 // console.log(true && false);  // false (AND)
 // console.log(true || false);  // true  (OR)
 // console.log(!true);          // false (NOT)
+
+// console.log('Hello World!')
+
+//Operador ternário
+
+// let idade = 18;
+// let status = idade >= 18 ? "Maior de idade" : "Menor de idade";
+
+// console.log(status)
+
+
+//Coalescência Nula
+
+// let valor = null;
+// let resultado = valor ?? "Valor padrão"; // "Valor padrão"
+
+// Encadeamento Opcional
+
+// let usuario = { nome: "Ana" };
+// console.log(usuario?.endereco?.rua); // undefined
+
+// Operador Spread
+
+// let arr1 = [1,2];
+// let arr2 = [3,4];
+// let combinado = [...arr1, ...arr2]; // [1,2,3,4]
+
+###########################################################
+
+# JavaScripit 2
+
+// Estruturas Condicionais (if / else)
+
+// let tarefaConcluida = true;
+
+// if (tarefaConcluida) {
+//   console.log("A tarefa está concluída!");
+// }
+
+// let prioridade = 2; // 1: baixa, 2: média, 3: alta
+
+// if (prioridade === 3) {
+//   console.log("Prioridade Alta");
+// } else {
+//   console.log("Prioridade não é alta");
+// }
+
+// if (prioridade === 1) {
+//   console.log("Prioridade Baixa");
+// } else if (prioridade === 2) {
+//   console.log("Prioridade Média");
+// } else if (prioridade === 3) {
+//   console.log("Prioridade Alta");
+// } else {
+//   console.log("Prioridade desconhecida");
+// }
+
+// 2. Switch Case
+
+// let diaSemana = new Date().getDay(); // 0: Domingo, 1: Segunda, etc.
+
+// switch (diaSemana) {
+//   case 0:
+//     console.log("Domingo");
+//     break;
+//   case 1:
+//     console.log("Segunda-feira");
+//     break;
+//   // ...
+//   default:
+//     console.log("Dia inválido");
+//     break;
+// }
+
+// 3. Loops (for, while, do/while)
+
+// for (let i = 0; i < 5; i++) {
+//     console.log("Contagem:", i);
+//   }
+
+//   let contador = 0;
+// while (contador < 5) {
+//   console.log("Contagem:", contador);
+//   contador++;
+// }
+
+// let numero = 5;
+// do {
+//   console.log("Número é:", numero);
+//   numero--;
+// } while (numero > 0);
+
+
 
